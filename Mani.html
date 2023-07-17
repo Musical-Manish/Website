@@ -1,0 +1,79 @@
+<html>
+<head>
+    <title>Homepage</title>
+    <link rel="stylesheet" type="text/css" href="test.css">
+    <style>
+        ul{
+            list-style-type: none;
+            margin: 10px;
+            padding: 10px;
+            width: 200px;
+        }
+        li a{
+            display: block;
+            padding: 10px;
+            margin: 10px;
+            background-color: rgb(224, 233, 233);
+            text-decoration: none;
+            color: #000000d7;
+        }
+        
+        h4{background-color: rgb(243, 243, 185);margin-right:auto; padding-left: 10px;}
+        p{padding-left: 10px;}
+        div{padding-left: 10px;}
+         h3{text-align: center;}
+        .center {text-align: center;}
+        .inset {border-style:inset;
+            border-color :hsl(0, 71%, 88%);
+            box-shadow: 0 10px 40px rgba(0,0,0,.1);
+            border-width: 2px;
+            border:1px solid rgba(255, 0, 0, .5)}
+        .listpad {padding: 10px;}
+    </style>
+</head>
+<body>
+    <header class="header"id ="8"><marquee class="center header"  behavior="slide" direction="left" Scrollamount=80><h1 style="color: whitesmoke;">Welcome to M@ni</h1></marquee></header>
+<ul>
+    <li><a href= "elt.html">Home</a></li>
+    <li><a href=  "#6">Signin</a></li>
+    <li><a href= "elt.html">Signup</a></li>
+</ul>
+    
+<dl class="inset listpad"> <!--Use any class or number of class inside the inverted commas-->
+    <dr><h4>Introduction</h4>
+        <dd>My name is Manish</dd>
+    </dr>
+    <dr><h4>Education</h4>
+        <dd>Completed Graduation </dd>
+    </dr>
+    <dr><h4>Address</h4>
+        <dd>Ambika Nagar Indore </dd>
+    </dr>
+    <dr><h4>Skills</h4>
+        <dd> 
+           <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Python</li>
+            <li>SQL</li>
+        </ul> 
+        </dd>
+    </dr>
+</dl>
+<p class="inset">Hi everyone,<br><br>This is the starting phase of learning HTML and building webpage using the same</p>
+<p>Besides programming I'm also very fond of music and play below instruments:<ol>
+    <li>Guitar</li>
+    <li>Piano</li>
+    <li>Harmonium</li>
+    </ol>
+</p>
+<div id="6" class="inset">I also compose and produce music in my free time. Although the duration of this so called free time is quite less.
+    </div>
+<h3>Do you want to proceed</h3><br>
+<input id="1" type="radio" name="l" onclick="idhr()">Yes
+<input id="2" type="radio" name="l" onclick="idhr()">No
+
+<script src="script.js"></script>
+
+</body>
+</html>
