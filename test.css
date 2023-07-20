@@ -46,6 +46,7 @@ body{
     width: 85px;
     padding-left: 60px;
     height: 90px;
+    mix-blend-mode: multiply;
   }
 
 
